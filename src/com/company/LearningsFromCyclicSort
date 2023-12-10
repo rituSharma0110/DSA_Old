@@ -1,0 +1,4 @@
+1.Cyclic sort can be applied to array having numbers from 1 to N in continuous fashion
+2. we never declare a variable in a while loop
+3. Remember 1 to N(or in some cases 0 to N , in that case correct index would be the array[i)
+ that is no negative integers can be sorted using this sorting algo.

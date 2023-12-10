@@ -1,0 +1,28 @@
+package com.company;
+
+public class FloorRev {
+    public static void main(String[] args) {
+        int[] array = {-18, -7, -3, 0, 1, 2, 5, 8, 19, 23, 27};
+        int ans = doBinarySearch(array, 3);
+        System.out.println(ans);
+    }
+
+    static int doBinarySearch(int [] array, int target){
+        int ans = -1;
+        int start = 0;
+        int end = array.length -1;
+
+        while (start<=end){
+            int mid = start + (end - start)/2;
+            if(array[mid]==target){
+                return array[mid];
+            }else if(array[mid]<target){
+                ans = array[mid];
+                start = mid + 1;
+            }else if(array[mid]>target){
+                end = mid -1;
+            }
+        }
+        return ans;
+    }
+}

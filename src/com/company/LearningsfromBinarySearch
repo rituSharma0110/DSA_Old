@@ -1,0 +1,9 @@
+1. For any sorted array , try to approach binary search
+2. if there is increasing section as well as decreasing section in array, try to solve by bynary search
+3. if logn is expected definitely its a binary search questions
+4. if nlogn is asked definitely the question has something to do with binary search and
+iterating an array for at least one time.
+5. if target is not given and you are asked to perform any action then you must
+do while (start<end) and not while ( start <=end).
+6.Whenever asked minimize the greatest distance or minimize the greatest something, do binary search as done in allocation
+of books question.

@@ -1,0 +1,3 @@
+1. Outer loop runs till array.length -1 (i<arr.length-1) as j hovers on i+1 and two elements are taken at a time.
+2. Best case for Insertion sort is O(n) when the array is sorted.
+3. Worst case for Insertion sort is O(n^2)

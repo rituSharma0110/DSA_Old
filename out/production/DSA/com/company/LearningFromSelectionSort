@@ -1,0 +1,6 @@
+1. In selection sort we select largest or smallest value and then we place it at right position.
+2. for finding min we run loop from "firstIndex" as the smallest value has already been placed at first position.
+3. It is unstable in nature .
+4. It is not an inplace algo as we created a min variable.
+5. Best case complexity is O(n^2).
+6. Worst case complexity is also O(n^2).
